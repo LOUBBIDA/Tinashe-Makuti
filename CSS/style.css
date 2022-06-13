@@ -1,0 +1,252 @@
+@font-face {
+   font-family:hello;
+   src: url(/font/MrDafoe-Regular.ttf);
+}
+:root{
+   --primary : #1E79F2;
+}
+
+body{
+   margin: 0;
+}
+
+.row{
+   display: flex;
+}
+
+.col-left{
+   background: url('../images/profil.jpg');
+   height: 100vh;
+   background-size: cover;
+   width: 40%;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   
+}
+
+.col-left .back-img{
+   background-color: black;
+}
+
+.col-middle{
+   width: 52%;
+   
+   position: relative;
+   left: 40%;
+}
+
+aside{
+   width: 8%;
+   border-left: 1px solid gray;
+   position: fixed;
+   right: 10px;
+   bottom: 0;
+   top: 0;
+   padding: 10px 0;
+   background-color: white;
+ 
+}
+
+header{
+   background-color: white;
+   box-shadow: 5px 5px 5px gray;
+   margin: 50px;
+   border-radius: 50px;
+   padding: 0 40px;
+   position: fixed;
+   left: 0;
+   right: 0;
+   z-index: 9;
+}
+
+.row-header{
+   display: flex;
+   justify-content: space-between;
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 10px 20px;
+}
+h3{
+   margin-top: 175px;
+   margin-left: 30px;
+   font-size: 60px;
+   font-family: sans-serif;
+}
+
+ul li a {
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+   font-family: sans-serif;
+
+}
+a:hover{
+   color: blue;
+   animation: bounce; 
+   animation-duration: 2s
+}
+.icon1{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   position: absolute;
+   top: 500px;
+   left: 30px;
+}
+.icon1:hover{
+   color: blue;
+}
+.icon2:hover{
+   color: blue;
+}
+.icon2{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   position: absolute;
+   top: 549px;
+   left: 30px;
+}
+
+
+.logo h4{
+   font-size: 1.2em;
+   font-family: sans-serif;
+}
+
+ul li button{
+   background-color: white;
+   padding: 15px;
+   border-radius: 25px;
+   border: 2px solid var(--primary);
+   color: var(--primary);
+   text-transform: uppercase;
+}
+.btn{
+   background-color: white;
+   padding: 20px;
+   border-radius: 25px;
+   border: 2px solid ;
+   margin-left: 50px;
+   text-transform: uppercase;
+   font-weight: bolder;
+   margin-bottom: 100px;
+ 
+   
+
+}
+.tit{
+   color: #1E79F2;
+   text-transform: capitalize;
+   font-weight: bold;
+   margin-left: 40px;
+   font-family: sans-serif;
+}
+p{
+   margin-left: 30px;
+   margin-right: 60px;
+   text-transform: lowercase;
+   font-size:large;
+   font-weight: bold;
+   color: rgb(85, 83, 83);
+}
+.ajo{
+   position: absolute;
+   left: 400px;
+    
+}
+
+  .addres  {
+     list-style: none;
+       margin-left: 30px; }
+   
+       .spa{
+         
+         width: 30px;
+       }
+       .test{
+          display: flex;
+          justify-content: space-between;
+          margin-left: 40px;
+          margin-right: 40px;
+       }
+       .star{
+          text-decoration: underline solid;
+       }
+       .par{
+          margin-left: 20px;
+       }
+ 
+    
+.AT{word-spacing: 20px;
+   text-transform:capitalize;
+
+}
+.with{
+   width: 200px;
+   height: 300px;
+   object-fit: cover;
+}
+.arij{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 60px;
+   margin-right: 60px;
+}
+h4{
+   margin-left: 65px;
+   margin-right: 65px;
+}
+.ayman{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 60px;
+   margin-right: 60px
+}
+.has{
+   margin-left: 20px;
+   padding: 20px;
+   border-radius: 25px;
+   border: 2px solid ;
+}
+.hass{
+   margin-left: 20px;
+   padding: 60px;
+   border-radius: 25px;
+   border: 2px solid ;
+}
+.from{
+   margin-left: 40px;
+}
+ 
+
+span{
+   color: blue;
+   font-size: large;
+   width: 2em;
+}
+.BOR{
+   border:solid 1px;
+   border-radius: 10%;
+   padding-bottom: 00px;
+   padding-top: 30px;
+
+   margin-left: 10px;
+   margin-right: 30px;
+}
+.formule{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+}
+h5{
+   margin-left: 40px
+}
+.kitaba{
+   font-family:hello ;
+   font-size: 3.2em;
+}
